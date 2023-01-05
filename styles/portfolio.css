@@ -24,7 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 51px;
+    padding: 50px 5px;
 }
 nav li{
     list-style: none;

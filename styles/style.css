@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-color: #FFF8F3;
+    background: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/* nav css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 235px;
+    padding-top: 50px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    padding-left: 50px;
+}
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+.r{
+    color:#FD6E0A;
+}
+.btn-hire-me {
+    width: 130px;
+    height: 50px;
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+    border:0;
+}
+.item{
+    font-weight: 400;
+    font-size: 20px;
+}
+/* banner styles */
+.banner {
+    margin: 0px  235px;
+    display: flex;
+}
+.banner-title {
+    font-weight: 550;
+    font-size: 35px;
+    padding-top: 185px;
+    padding-bottom: 5px;
+}
+.banner-name {
+    font-weight: 700;
+    font-size: 85px;
+    padding-bottom: 20px;
+}
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.banner li {
+    list-style: none;
+}
+.btn-download {
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: 600;
+    font-size: 15px;
+    width: 180px;
+    height: 60px;
+}
+.btn-contact {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+    width: 140px;
+    height: 60px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+/* about me style */
+.about-me {
+    margin: 130px 230px;
+    background-color: #FFF8F3;;
+}
+.About-me-title {
+    text-align: center;
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-me-des {
+    text-align: center;
+    padding: 30px 150px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+.about-me-details {
+    padding: 0px 150px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+/* what i do styles */
+.what-i-do {
+    margin: 0px 230px;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.skill {
+    width: 200px;
+    height: 300px;
+    padding: 30px 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background-color: white;
+}
+.skill-title {
+    padding: 20px 0px;
+}
+.wid-title {
+    text-align: center;
+}
+.wid-des {
+    text-align: center;
+    padding: 30px 100px;
+}
+/* resume styles */
+.resume {
+    margin: 100px 230px;
+}
+.resume-container {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.resume-title {
+     text-align: center;
+     padding-bottom: 80px;
+}
+.summary-title {
+    padding-bottom: 30px;
+}
+.resume-container h6 {
+    padding: 15px 0px;
+}
+.resume-container p {
+    padding-bottom: 30px;
+}
+.resume-container hr {
+    margin-bottom: 30px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+}
+/* footer styles */
+.btn-submit {
+    background-color:#FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 0;
+    font-weight: 600;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+}
+footer {
+    background-color: #FFF8F3;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+    column-gap: 150px;
+}
+.social-media {
+    display: flex;
+    column-gap: 12px;
+}
+.footer-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.left-des {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 25px;
+}
+.name-email {
+    border: 0;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: white;
+    width: 350px;
+    height: 60px;
+}
+.message{
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

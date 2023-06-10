@@ -4,9 +4,7 @@
 }
 .header {
     background-color: #FFF8F3;
-    background: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    
 }
 /* nav css */
 nav {
@@ -46,14 +44,22 @@ nav li {
 }
 /* banner styles */
 .banner {
-    margin: 0px  235px;
+    margin: 0px  20px;
     display: flex;
+    background: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , left;
+    padding-bottom: 100px;
+}
+.banner-details{
+    padding-left: 200px;
 }
 .banner-title {
     font-weight: 550;
     font-size: 35px;
     padding-top: 185px;
     padding-bottom: 5px;
+    
 }
 .banner-name {
     font-weight: 700;
@@ -93,7 +99,7 @@ nav li {
 /* about me style */
 .about-me {
     margin: 130px 230px;
-    background-color: #FFF8F3;;
+    background-color: #FFF8F3;
 }
 .About-me-title {
     text-align: center;
@@ -219,4 +225,70 @@ footer {
     border: 0;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+.hide{
+    display: none;
+}
+/* responsive styles */
+@media screen and (max-width:576px) {
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .what-i-do{
+        margin:0px 10px ;
+    }
+    .wid-des{
+        padding: 20px 5px;
+    }
+    .about-me{
+        margin: 80px auto;
+    }
+    .about-me-details{
+        flex-direction: column;
+        padding: 0px;
+        row-gap: 5px;
+    }
+    .details{
+        display: flex;
+        
+        justify-content: center;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    .resume {
+        margin: 100px 0px;
+    }
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 100px auto;
+        
+    }
+    .banner{
+        flex-direction: column;
+        background-position: bottom left,top left;
+    }
+    .banner-details{
+        padding-left: 115px;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 40px;
+    }
+    nav li{
+        padding-left:0px;
+    }
+    .hardy{
+        width: 390px;
+        
+    }
 }
